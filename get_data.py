@@ -9,7 +9,6 @@ import time
 def get_api():
     with open('static.json', 'r') as f:
         data = json.load(f)
-        print(data)
         return data
 
 
@@ -19,10 +18,11 @@ def get_vt_data(key, hash):
     params = {'apikey': key, 'resource': hash}
     di = requests.get(url, params=params)
 
-    print(di['permalink'])
-    print('Score >> ' + str(di['positives']) + "/" + str(di['total']))
+    # print(di['permalink'])
+    # print('Score >> ' + str(di['positives']) + "/" + str(di['total']))
+    # print(di.json())
+
     time.sleep(30)
-    # print(response.json())
 
 
 if __name__ == '__main__':
