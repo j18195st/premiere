@@ -1,2 +1,5 @@
 *.json
 *.evtx
+*.xml
+*.html
+*.iml
