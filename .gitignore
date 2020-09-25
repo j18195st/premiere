@@ -1,0 +1,7 @@
+*.json
+*.evtx
+*.xml
+*.html
+*.iml
+.idea
+compare.txt
