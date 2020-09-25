@@ -3,4 +3,5 @@
 *.xml
 *.html
 *.iml
+.ida
 compare.txt
